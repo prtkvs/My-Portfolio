@@ -38,7 +38,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="/resume.pdf" // Path of resume file in public folder
+                href="/Prateek_resume.pdf" // Path of resume file in public folder
                 download // This attribute triggers the download
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
