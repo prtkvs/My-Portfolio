@@ -24,7 +24,7 @@ const projects = [
     id: 3,
     title: "Recipes App",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "A responsive recipe app that fetches real-time food, ingredients, and cooking instructions from an API",
     image: "/recipes-app.png",
     tags: ["HTML", "CSS", "Javascript"],
     demoUrl: "https://prtkvs.github.io/Recipes-App/",
