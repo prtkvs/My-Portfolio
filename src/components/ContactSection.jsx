@@ -1,6 +1,7 @@
 import {
   Instagram,
   Linkedin,
+  Github,
   Mail,
   MapPin,
   Phone,
@@ -126,12 +127,12 @@ export const ContactSection = () => {
               <div className="flex space-x-4 justify-center">
                 <a href="https://www.linkedin.com/in/prateekverma0/" target="_blank">
                   <Linkedin />
+                </a>  
+                <a href="https://github.com/prtkvs" target="_blank">
+                  <Github />
                 </a>
-                <a href="https://x.com/prtkv3" target="_blank">
-                  <Twitter />
-                </a>
-                <a href="https://www.instagram.com/prtk.v/" target="_blank">
-                  <Instagram />
+                <a href="mailto:prateek222rithik@gmail.com" target="_blank">
+                  <Mail />
                 </a>
               </div>
             </div>
