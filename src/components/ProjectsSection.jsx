@@ -1,34 +1,34 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-  {
+    {
     id: 1,
-    title: "Admin Dashboard",
-    description: "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/dashboard.png",
-    tags: ["React", "Material UI", "Nivo Charts","Formik","Yup","Full Calendar"],
-    demoUrl: "https://prtk-admin.netlify.app/",
-    githubUrl: "https://github.com/prtkvs/Admin-Dashboard-react",
+    title: "SKILL AI - Career Coach",
+    description:
+      "A responsive AI-powered career assistant that generates tailored resumes, cover letters, interview prep, and industry insights based on user input and real-time Gemini AI integration.",
+    image: "/skillai.png",
+    tags: ["Next.js", "MongoDB", "Prisma","Gemini AI API","Shadcn UI","Inngest","Clerk","Tailwind"],
+    demoUrl: "https://prtk-skill-ai.vercel.app/",
+    githubUrl: "https://github.com/prtkvs/AI-Career-Coach",
   },
   {
     id: 2,
+    title: "Commerce Craft",
+    description: "A full-stack e-commerce platform with seller dashboards, optimized image uploads, secure payments, automated order handling, and hybrid SSR/SSG rendering.",
+    image: "/CommerceCraft.png",
+    tags: ["Next.js 15", "MongoDB", "Cloudinary", "Stripe", "Inngest", "Clerk", "Mongoose", "Tailwind"],
+    demoUrl: "https://commerce-craft.vercel.app/",
+    githubUrl: "https://github.com/prtkvs/Commerce-Craft",
+  },
+  {
+    id: 3,
     title: "Exercise Finder App",
     description:
-      "Searchable fitness app to discover exercises by muscle group, equipment, and body part",
+      "A responsive fitness application built with React.js and Material UI that enables users to search and explore exercises by muscle group, equipment, and body part, fetching real-time data including exercise GIFs and instructions",
     image: "/gym_exercises.png",
     tags: ["React.js", "Material UI", "Rapid API"],
     demoUrl: "https://prtkgym.netlify.app/",
     githubUrl: "https://github.com/prtkvs/Exercise-Finder-App",
-  },
-  {
-    id: 3,
-    title: "Recipes App",
-    description:
-      "A responsive recipe app that fetches real-time food, ingredients, and cooking instructions from an API",
-    image: "/recipes-app.png",
-    tags: ["HTML", "CSS", "Javascript"],
-    demoUrl: "https://prtkvs.github.io/Recipes-App/",
-    githubUrl: "https://github.com/prtkvs/Recipes-App",
   },
 ];
 
