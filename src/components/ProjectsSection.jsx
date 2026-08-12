@@ -1,35 +1,82 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-    {
+  {
     id: 1,
-    title: "SKILL AI - Career Coach",
+    title: "SKILL AI",
     description:
       "A responsive AI-powered career assistant that generates tailored resumes, cover letters, interview prep, and industry insights based on user input and real-time Gemini AI integration.",
     image: "/skillai.png",
-    tags: ["Next.js", "MongoDB", "Prisma","Gemini AI API","Shadcn UI","Inngest","Clerk","Tailwind"],
+    tags: [
+      "Next.js",
+      "MongoDB",
+      "Prisma",
+      "Gemini AI API",
+      "Shadcn UI",
+      "Inngest",
+      "Clerk",
+      "Tailwind",
+    ],
     demoUrl: "https://prtk-skill-ai.vercel.app/",
     githubUrl: "https://github.com/prtkvs/AI-Career-Coach",
   },
   {
     id: 2,
     title: "Commerce Craft",
-    description: "A full-stack e-commerce platform with seller dashboards, optimized image uploads, secure payments, automated order handling, and hybrid SSR/SSG rendering.",
+    description:
+      "A full-stack e-commerce platform with seller dashboards, optimized image uploads, secure payments, automated order handling, and hybrid SSR/SSG rendering.",
     image: "/CommerceCraft.png",
-    tags: ["Next.js 15", "MongoDB", "Cloudinary", "Stripe", "Inngest", "Clerk", "Mongoose", "Tailwind"],
+    tags: [
+      "Next.js 15",
+      "MongoDB",
+      "Cloudinary",
+      "Stripe",
+      "Inngest",
+      "Clerk",
+      "Mongoose",
+      "Tailwind",
+    ],
     demoUrl: "https://commerce-craft.vercel.app/",
     githubUrl: "https://github.com/prtkvs/Commerce-Craft",
   },
   {
     id: 3,
-    title: "Exercise Finder App",
+    title: "Note AI",
     description:
-      "A responsive fitness application built with React.js and Material UI that enables users to search and explore exercises by muscle group, equipment, and body part, fetching real-time data including exercise GIFs and instructions",
-    image: "/gym_exercises.png",
-    tags: ["React.js", "Material UI", "Rapid API"],
-    demoUrl: "https://prtkgym.netlify.app/",
-    githubUrl: "https://github.com/prtkvs/Exercise-Finder-App",
+      "A secure, AI-powered note-taking platform built with Express and JWT authentication, featuring bcrypt-encrypted credentials, MongoDB-backed REST APIs, and a modern Next.js interface, enabling intelligent note creation, summarization, and retrieval while ensuring reliable, validated, and scalable request handling.",
+    image: "/Note-AI.png",
+    tags: [
+      "Express.js",
+      "Next.js",
+      "Shadcn UI",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "Tailwind",
+      "Gemini AI API",
+    ],
+    demoUrl: "https://note-ai-flame.vercel.app/",
+    githubUrl: "https://github.com/prtkvs/Note-AI",
   },
+  {
+    id: 4,
+    title: "Contact Manager App",
+    description:
+      "A secure, full-stack contact management system built on Express with JWT authentication, bcrypt-encrypted credentials, efficient PostgreSQL–Prisma APIs, and a Shadcn-powered Next.js interface that improves task flow while enforcing validated, monitored, and highly reliable request handling.",
+    image: "/contact_manager.png",
+    tags: [
+      "Express.js",
+      "Next.js",
+      "Shadcn UI",
+      "PostgreSQL",
+      "Prisma",
+      "JWT",
+      "Tailwind",
+    ],
+    demoUrl: "https://contact-manager-app-flame.vercel.app/",
+    githubUrl: "https://github.com/prtkvs/Contact-Manager-App",
+  },
+  
 ];
 
 export const ProjectsSection = () => {
@@ -46,7 +93,9 @@ export const ProjectsSection = () => {
           crafted with attention to detail, performance, and user experience.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-items-center">
+
+
           {projects.map((project, key) => (
             <div
               key={key}

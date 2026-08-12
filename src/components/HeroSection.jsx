@@ -21,7 +21,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-           I build interfaces that are both beautiful and functional, crafting responsive and intuitive designs that ensure seamless, engaging user experiences.
+           I build scalable full-stack applications that are both powerful and intuitive, combining thoughtful interfaces with reliable backend systems to create seamless digital experiences.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">

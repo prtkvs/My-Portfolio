@@ -28,23 +28,15 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & DSA Learner
+              Software Developer
             </h3>
 
             <p className="text-muted-foreground">
-              I’m an aspiring software developer passionate about creating
-              elegant solutions to complex problems. I build responsive,
-              accessible, and high-performance web applications that deliver
-              outstanding user experiences. I’m committed to continuous
-              learning, staying at the forefront of the ever-evolving web
-              landscape through new technologies and techniques.
+              I’m a software developer who enjoys solving complex problems and building clean, scalable solutions. I work across the stack, with a strong focus on backend systems, APIs, data flow, and scalable application architecture, while building responsive and accessible web interfaces.
             </p>
 
             <p className="text-muted-foreground">
-              Alongside building end-to-end web projects, I focus heavily on
-              problem-solving through DSA to strengthen my technical foundation.
-              My goal is to contribute to real-world products while continuously
-              growing as a developer and learning from experienced teams.
+              I’ve worked on production systems and AI-powered applications, from CRM platforms and authentication workflows to automated testing and full-stack products. Alongside development, I consistently strengthen my problem-solving skills through DSA and CS fundamentals, with a focus on writing reliable software and continuously learning through real-world engineering challenges.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -64,14 +56,14 @@ export const AboutSection = () => {
   {open && (
     <div className="absolute mt-2 w-40 flex flex-col gap-2 z-10">
       <a
-        href="/PRATEEK_VERMA_BIT_ECE.pdf"
+        href="/PRATEEK_VERMA_SDE_v4.pdf"
         download
         className="cosmic-button text-center"
       >
         Download CV
       </a>
       <a
-        href="https://drive.google.com/file/d/1gLGqz0FQjGrgcYnXevRfi4wiTZ7abmD9/view"
+        href="https://drive.google.com/file/d/1r_kwsZlu0G5nF_6gp12z20fDooXZjx8r/view"
         target="_blank"
         rel="noopener noreferrer"
         className="cosmic-button text-center"
@@ -92,10 +84,9 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web Development</h4>
+                  <h4 className="font-semibold text-lg">Full-Stack Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                   Building scalable web applications across the frontend, backend, APIs, and database layers using modern technologies.
                   </p>
                 </div>
               </div>
@@ -107,11 +98,10 @@ export const AboutSection = () => {
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">
-                    Data Structures & Algorithms
+                    Backend & System Design
                   </h4>
                   <p className="text-muted-foreground">
-                    Solving complex problems and optimizing code for efficient,
-                    scalable solutions.
+                    Designing reliable backend systems, APIs, and data flows with a focus on scalability, maintainability, and performance.
                   </p>
                 </div>
               </div>
@@ -122,10 +112,9 @@ export const AboutSection = () => {
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Data Structures & Algorithms</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Solving complex problems with efficient algorithms and strengthening the foundation behind scalable software.
                   </p>
                 </div>
               </div>

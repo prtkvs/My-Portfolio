@@ -2,27 +2,37 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  { name: "JAVA (DSA)", level: 95 },
+  // Core
+  { name: "JAVA (DSA)", level: 90 },
+  { name: "SQL", level: 85 },
 
   // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
+  { name: "HTML/CSS", level: 90, category: "frontend" },
   { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 90, category: "frontend" },
+  { name: "TypeScript", level: 85, category: "frontend" },
+  { name: "React.js", level: 90, category: "frontend" },
+  { name: "Next.js", level: 90, category: ["frontend", "backend"] },
   { name: "Tailwind CSS", level: 90, category: "frontend" },
-  { name: "Next.js", level: 80, category: ["frontend", "backend"] }, // Shared between frontend & backend
-  { name: "Redux", level: 80, category: "frontend" },
+  { name: "ShadCN UI", level: 85, category: "frontend" },
 
   // Backend
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "Prisma", level: 70, category: "backend" },
-  { name: "Mongoose", level: 70, category: "backend" },
-  { name: "MySQL", level: 85, category: "backend" },
+  { name: "Node.js", level: 85, category: "backend" },
+  { name: "Express.js", level: 85, category: "backend" },
+  { name: "REST APIs", level: 85, category: "backend" },
+  { name: "MongoDB", level: 80, category: "backend" },
+  { name: "PostgreSQL", level: 75, category: "backend" },
+  { name: "Prisma", level: 75, category: "backend" },
+  { name: "Mongoose", level: 75, category: "backend" },
+  { name: "Redis", level: 65, category: "backend" },
+  { name: "Kafka", level: 60, category: "backend" },
 
-  // Tools
+  // Infrastructure & Tools
+  { name: "AWS", level: 75, category: "tools" },
+  { name: "Docker", level: 70, category: "tools" },
   { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "IntelliJ Idea", level: 95, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
-  { name: "PostMan", level: 70, category: "tools" },
+  { name: "GitHub Actions", level: 75, category: "tools" },
+  { name: "Linux", level: 75, category: "tools" },
+  { name: "Postman", level: 80, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
